@@ -30,3 +30,13 @@ h1 {
   height: 100%;
 }
 
+div{
+  width: 300px;
+  border: 25px solid green;
+  padding: 25px;
+  margin: 25px;
+}
+
+h1{
+ display: inline;
+}
