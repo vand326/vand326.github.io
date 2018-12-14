@@ -40,3 +40,7 @@ div{
 h1{
  display: inline;
 }
+
+#grad {
+  background-image: linear-gradient(white, gray);
+}
