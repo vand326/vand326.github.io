@@ -1,18 +1,18 @@
 body {
 text-align: center;
-color: #6699cc;
+color: #000000;
 font-family: 'Century Gothic','Futura', serif;
-background-color: #F1F1F1;
+background-color: #FFFFFF;
 }
 
 a {
 /* color: #69CBBB; */
-color: #88AABD;
+color: #000000;
 text-decoration: none;
 }
 
 h1 {
-  color: #88AABD;
+  color: #000000;
   padding: 20px 0px 10px 0px;
   display: inline;
 }
@@ -59,6 +59,11 @@ nav li {
 nav a:hover {
   color: #9dcaec;
 }
+
+a:hover {
+  color: #9dcaec;
+}
+
 #grad {
   background-image: linear-gradient(white, gray);
 }
