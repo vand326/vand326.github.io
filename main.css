@@ -1,14 +1,17 @@
 body {
 text-align: center;
+color: #6699cc;
 font-family: 'Century Gothic','Futura', serif;
 }
 
 a {
-color: #69CBBB;
+/* color: #69CBBB; */
+color: #6699cc;
 text-decoration: none;
 }
 
 h1 {
+  color: #6699cc;
   padding: 20px 0px 10px 0px;
   display: inline;
 }
@@ -53,7 +56,7 @@ nav li {
 }
 
 nav a:hover {
-  color: #000;
+  color: #9dcaec;
 }
 #grad {
   background-image: linear-gradient(white, gray);
