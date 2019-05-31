@@ -52,6 +52,9 @@ nav li {
   margin: 20px;
 }
 
+nav a:hover {
+  color: #000;
+}
 #grad {
   background-image: linear-gradient(white, gray);
 }
