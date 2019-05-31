@@ -10,6 +10,7 @@ text-decoration: none;
 
 h1 {
   padding: 20px 0px 10px 0px;
+  display: inline;
 }
 
 
@@ -33,15 +34,22 @@ h1 {
   height: 100%;
 }
 
-div{
+/* div{
   width: 300px;
   /* border: 15px solid blue; */
-  padding: 25px;
+  padding: 25px; */
   margin: 25px;
+} */
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-h1{
- display: inline;
+nav li {
+  display: inline-block;
+  margin: 20px;
 }
 
 #grad {
