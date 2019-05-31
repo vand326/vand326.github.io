@@ -2,16 +2,17 @@ body {
 text-align: center;
 color: #6699cc;
 font-family: 'Century Gothic','Futura', serif;
+background-color: #E8E9EB;
 }
 
 a {
 /* color: #69CBBB; */
-color: #6699cc;
+color: #88AABD;
 text-decoration: none;
 }
 
 h1 {
-  color: #6699cc;
+  color: #88AABD;
   padding: 20px 0px 10px 0px;
   display: inline;
 }
