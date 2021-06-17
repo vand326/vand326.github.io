@@ -1,0 +1,12 @@
+.transition-fade{
+  transition: 500ms;
+  transform: translateY(0);
+}
+
+html.is-animating .transition-fade{
+  transform: translateY(100px);
+}
+
+html.is-leaving .transition-fade{
+  transform: translateY(0);
+}

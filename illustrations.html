@@ -10,10 +10,14 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="lightbox2-2.11.3/dist/css/css/lightbox.css">
   <link rel="stylesheet" href="lightbox2-2.11.3/dist/css/lightbox.min.css">
-
+  <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+  <script defer src="script.js"></script>
+  <link href="css/style1.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
+
 
    <div class="container">
         <div class="image-gallery">
@@ -55,6 +59,7 @@
              </a>
         </div>
    </div>
+
    <div class="modal">
       <img src="" alt="" class="full-img"/>
       <p class="caption"></p>
@@ -64,6 +69,10 @@
     lightbox.option({
       'albumLabel': data-title,
     })
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 </body>
 </html>
