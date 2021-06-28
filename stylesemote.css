@@ -1,5 +1,4 @@
 
-
 ::before,
 ::after{
   margin: 0;
@@ -7,13 +6,17 @@
   box-sizing: border-box;
 }
 
+html{
+  font-family: 'century-gothic', sans-serif;
+  font-size: 10px;
+}
 
-/* body{
+body{
    width: 100%;
    height: 100vh;
    background-color: #eee;
    display: flex;
-} */
+}
 
 .container{
   width: 100%;
@@ -29,7 +32,7 @@
   grid-gap: 1.5rem;
   grid-template-areas:
       'img-1 img-4 img-4 img-2'
-      'img-1 img-5 img-5 img-2'
+      'img-5 img-5 img-5 img-2'
       'img-7 img-7 img-6 img-3'
       'img-12 img-8 img-6 img-9'
       'img-10 img-8 img-11 img-9';
@@ -79,8 +82,8 @@
 
 .img-1{
   grid-area: img-1;
-  min-height: 51.5rem;
-  background-image: url("images/Giyuu.png");
+  /* min-height: 51.5rem; */
+  background-image: url("emotes/giyuemote.gif");
 }
 
 .img-2{

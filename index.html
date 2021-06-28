@@ -1,68 +1,111 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Vanna Dao Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
-    <script defer src="script.js"></script>
-    <link href="css/style1.css" rel="stylesheet">
-  </head>
-  <style>
-  div{
-    margin-top: 100px;
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compantible" content="ie=edge">
+  <title>Illustration</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC" rel="stylesheet">
+  <!-- <link href="nav.css" rel="stylesheet"> -->
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="lightbox2-2.11.3/dist/css/css/lightbox.css">
+  <link rel="stylesheet" href="lightbox2-2.11.3/dist/css/lightbox.min.css">
+  <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+  <script defer src="script.js"></script>
+  <link href="css/style1.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+<div class="navbar">
+  <nav>
+    <div class="logo">
+      <h1>Vanna Dao Portfolio</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Illustrations</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+    <div class= "burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+</div>
+
+
+   <div class="container">
+        <div class="image-gallery">
+             <a href="images/Giyuu.png" data-lightbox="gallery" data-title="Happy Giyuu Tomioka" class="img-1">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/rengokubg2.png" data-lightbox="gallery" data-title="Casual Rengoku" class="img-2">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/Dao_Vanna_Art3_Project1.jpg" data-lightbox="gallery" data-title="$1.2 Million Dollar" class="img-3">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/BlackHamburger.jpg" data-lightbox="gallery" data-title="Black Hamburger" class="img-4">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/Food1.png" data-lightbox="gallery" data-title="Purple Papaya" class="img-5">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/Food2.png" data-lightbox="gallery" data-title="Pink Noodle" class="img-6">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/Food3.png" data-lightbox="gallery" data-title="Green Eggs & Ham" class="img-7">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/fYumeko.png" data-lightbox="gallery" data-title="Yumeko Jabami" class="img-8">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/yohanee.png" data-lightbox="gallery" data-title="Yoshiko Yohane" class="img-9">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/jellyfish.png" data-lightbox="gallery" data-title="Jellyfish Gazing" class="img-10">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/illustrator1.png" data-lightbox="gallery" data-title="Bunny Pattern" class="img-11">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/dsaihara.png" data-lightbox="gallery" data-title="Detective Saihara" class="img-12">
+                  <i class="icon ion-md-expand"></i>
+             </a>
+        </div>
+   </div>
+
+   <div class="modal">
+      <img src="" alt="" class="full-img"/>
+      <p class="caption"></p>
+   </div>
+  <script src= "lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
+  <script>
+    lightbox.option({
+      'albumLabel': data-title;
+    })
+</script>
+  <script src="nav.js"></script>
+  <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
   }
-  </style>
-  <!-- <body> -->
-  <!-- <body style="background-color:#A9CCF3;"> -->
-    <!-- <h1>Vanna Dao BFA Portfolio</h1> -->
- <!-- <center> -->
-
-
-
-<nav class="navbar">
-      <div class="container nav_pad">
-        <ul>
-         <!-- <li><a class="navbar-link" href="index.html">Artist</a></li>
-         <li><a class="navbar-link" href="page1.html">Works</a></li> -->
-        </ul>
-      </div>
-</nav>
-
-
-
-
-   <!-- <a href= "images/Flow.JPG">
-   <img src="images/Flow.JPG" width="900">
-   </a> -->
-
- <center>
- <a href= "index.html"><h1>Vanna Dao Portfolio</h1></a>
- </center>
- <div id='index' style='width: 1500px'>
-
-   <div id="div-0">
-
-  <br>
-
-
-<!-- <div id='index' style='width: 1500px'>
-
-  <div id="div-0"> -->
-
-
-     <p align = "left">
-  Hi, my name is Vanna! I am an illustrator, animator, and motion graphic designer!
-   </p>
-    <main id="swup" class="transition-fade">
-   <a href= "/illustrations.html">Check out my works!</a>
-      </main>
-   <br>
-   <a href= "coding/Vanna Dao Resume.pdf">Click here to view Resume.</a>
-
-
-   </div>
-   </div>
-    <!-- </center> -->
- </body>
+}
+</script>
+</body>
 </html>
